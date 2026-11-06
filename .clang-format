@@ -1,0 +1,33 @@
+Language: Cpp
+BasedOnStyle: LLVM
+IndentWidth: 2
+ContinuationIndentWidth: 2
+TabWidth: 2
+UseTab: Never
+BreakBeforeBraces: Allman
+IndentCaseLabels: true
+AlwaysBreakAfterReturnType: AllDefinitions
+SpaceBeforeParens: Never
+SpaceBeforeAssignmentOperators: true
+SpaceAfterCStyleCast: false
+PointerAlignment: Right
+DerivePointerAlignment: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+ColumnLimit: 0
+BinPackArguments: true
+BinPackParameters: true
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveDeclarations: None
+AlignConsecutiveMacros: Consecutive
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Never
+SortIncludes: false
+ReflowComments: false
+IndentPPDirectives: None
+MaxEmptyLinesToKeep: 2
+KeepEmptyLinesAtTheStartOfBlocks: false
+TypenameMacros:
+  - _t
